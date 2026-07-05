@@ -1,6 +1,6 @@
 # Task Manager
 
-A simple task manager web app built with HTML, CSS, and vanilla JavaScript. Tasks persist across page reloads using the browser's `localStorage`.
+A simple task manager web app built with HTML, CSS, and vanilla JavaScript. Tasks persist across page reloads using the browser's `localStorage`. First proper experiment with HTML, CSS and JavaScript.
 
 ---
 
