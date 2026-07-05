@@ -4,6 +4,15 @@ const taskList = document.getElementById("taskList");
 const tasks = [];
 const savedTasks = localStorage.getItem("tasks");
 
+/* A function that adds task with Enter key */
+function addTaskWithEnter(event) {
+  if (event.key === "Enter") {
+    addBtn.click();
+  }
+}
+
+taskInput.addEventListener("keydown", addTaskWithEnter);
+
 /* A function for deleting tasks */
 function deleteTask(li) {
   li.remove();

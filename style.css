@@ -43,6 +43,12 @@ input[type="text"]:focus {
     border-color: #5394fd;
 }
 
+.input-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
 button {
     background-color: #0f3460;
     color: #e0e0e0;
@@ -50,8 +56,6 @@ button {
     border-radius: 8px;
     padding: 12px 28px;
     font-size: 1rem;
-    margin-top: 8px;
-    margin-left: 12px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
@@ -61,7 +65,26 @@ button:hover {
     color: #ffffff;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+    width: 370px;
+}
+
 li {
-    margin-top: 10px;
+    padding: 16px 8px;
+    border-bottom: 1px solid #2a2a4a;
+    transition: padding-left 0.2s, color 0.2s;
+    font-size: 1rem;
     cursor: pointer;
+    color: #c0c0d0;
+}
+
+li:hover {
+    padding-left: 14px;
+    color: #ffffff;
+}
+
+li:last-child {
+    border-bottom: none;
 }
